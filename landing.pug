@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Welcome
+    style.
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+      .landing-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      .landing-container h1 {
+        margin-bottom: 20px;
+        color: #28a745;
+      }
+      .landing-container p {
+        margin-bottom: 20px;
+      }
+      .landing-container a {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+      .landing-container a:hover {
+        background-color: #0056b3;
+      }
+  body
+    .landing-container
+      h1 Welcome
+      p You have successfully logged in.
+      a(href="/") Logout
